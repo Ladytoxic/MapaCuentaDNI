@@ -1,0 +1,16 @@
+.mapsView {
+margin: auto;
+    width:max-content;
+    max-height: 400;
+}
+
+.leaflet-container  {
+    margin: auto;
+    width: 95dvw;
+    height: 100dvh;
+    max-width: 700px;
+}
+
+.leaflet-popup-content {
+
+}

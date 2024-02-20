@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Encode Sans', encode_sansregular, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  & .hero {
+    margin: auto;
+    padding: 1rem;
+
+    & .banner {
+      width: 100%;
+      aspect-ratio: 16/9;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: .5rem;
+    }
+
+
+    & h2 {
+      text-wrap: balance;
+      padding: 0.8rem 0;
+      font-size: 1.6rem;
+      font-weight: 500
+    }
+    & p {
+      font-weight: 400;
+      font-size: 1.2rem;
+      text-wrap: pretty;
+    }
+  }
+}
